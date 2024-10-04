@@ -1,0 +1,13 @@
+# pack-refs with: peeled fully-peeled sorted 
+9b57c2002081fff8af16b878f1369d46788c0409 refs/remotes/origin/main
+e608511fac9580d9b1e6c797dc43fd78ddbf72b9 refs/remotes/origin/release-please--branches--main
+7a2997f8bb9cd910d664f9626c4b1721d82f49a6 refs/remotes/origin/renovate/bash-5.x
+e71188027943c95cb594f8f48a381b994c023d6f refs/remotes/origin/renovate/catppuccin-whiskers-2.x
+3c714c7ed0618056f927dca7924543c63dbbffc5 refs/remotes/origin/revert-240-perf/batch-tmux-show
+7a56eccb1c34b4a8527921439f9302b3e960ca2e refs/tags/latest
+^fc80a6d0a32476751f112497add5fc19a12ce3d9
+c66a6619e7f7353ebf5f6103cf00dbcff134edc5 refs/tags/v0
+^fc80a6d0a32476751f112497add5fc19a12ce3d9
+041e05725ebbf086773de730d3540978695e2769 refs/tags/v0.1
+^fc80a6d0a32476751f112497add5fc19a12ce3d9
+fc80a6d0a32476751f112497add5fc19a12ce3d9 refs/tags/v0.1.0

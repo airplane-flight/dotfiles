@@ -109,8 +109,8 @@ source $ZSH/oh-my-zsh.sh
 # SSH connections
 alias shome='ssh prismo'
 alias svault='ssh vault'
-alias sn2='ssh root@192.168.1.6'
-
+alias sn2='ssh root@node2'
+alias soni='ssh bitteorca@oni'
 # Screen sessions
 alias sstart='screen -dmS media mpdkeys && screen -dmS mpdas mpdas'
 

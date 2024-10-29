@@ -31,3 +31,9 @@ alias sstart='screen -dmS media mpdkeys && screen -dmS mpdas mpdas'
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+# === MOTD when signed in via SSH === #
+#if [[ -n $SSH_CONNECTION ]] ; then
+#  source ~/.config/.bashrc_motd
+#  bash_motd --banner --processor --memory
+#fi

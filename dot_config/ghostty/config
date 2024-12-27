@@ -14,3 +14,6 @@ macos-icon = custom-style
 macos-icon-frame = aluminum
 macos-icon-ghost-color = #cba6f7
 macos-icon-screen-color = #585b70
+
+# Keybinds
+keybind = alt+1=toggle_quick_terminal

@@ -16,4 +16,4 @@ macos-icon-ghost-color = #cba6f7
 macos-icon-screen-color = #585b70
 
 # Keybinds
-keybind = global:opt+space=toggle_quick_terminal
+keybind = global:opt+1=toggle_quick_terminal

@@ -1,0 +1,54 @@
+# file:     ~/.config/ncmpcpp/config
+# vim:nu:ai:si:et:ts=4:sw=4:fdm=indent:fdn=1:ft=conf:
+
+mpd_host = "localhost"
+mpd_port = "6600"
+mpd_music_dir = "/Volumes/Vault/Media/Music/"
+mpd_connection_timeout = "5"
+message_delay_time = "2"
+
+song_list_format = "{$4%a$9 $1|$9 }{%t}|{$8%f$9}$R{$b$8%b$/b$9} $1| %l$9"
+song_status_format = "$6{%a - }{%t - }{%b}$9"
+alternative_header_first_line_format = "{$5%t$/b}"
+alternative_header_second_line_format = "$7{$b%a$/b}$9 - $5{%b}$9 $8{(%y)}"
+now_playing_prefix = "$b"
+now_playing_suffix = ""
+browser_playlist_prefix = "$7$bplaylist$/b$9 "
+selected_item_prefix = "$6"
+selected_item_suffix = "$9"
+song_window_title_format = "{%a - }{%t}|{%f}"
+
+media_library_primary_tag = album_artist
+song_columns_list_format = "(8)[white]{l} (20)[magenta]{a} (28)[white]{t} (28)[magenta]{b}"
+discard_colors_if_item_is_selected = "yes"
+progressbar_look = "-■"
+progressbar_color = "white"
+progressbar_elapsed_color = "magenta"
+user_interface = "classic" (classic/alternative)
+titles_visibility = "no"
+header_visibility = "no"
+statusbar_visibility = "no"
+cyclic_scrolling = "yes"
+follow_now_playing_lyrics = "yes"
+#startup_screen = "2"
+mouse_support = "yes"
+#lyrics_database = "1"
+external_editor = "nvim"
+use_console_editor = "yes" (set to yes, if your editor is console app)
+
+colors_enabled = "yes"
+empty_tag_color = "magenta"
+header_window_color = "white"
+volume_color = "magenta"
+state_line_color = "white"
+state_flags_color = "white"
+main_window_color = "white"
+color1 = "white"
+color2 = "magenta"
+# main_window_highlight_color = "white"
+statusbar_color = "magenta"
+alternative_ui_separator_color = "black"
+# active_column_color = "cyan"
+window_border_color = "white"
+active_window_border = "magenta"
+current_item_prefix = $(green)❯

@@ -30,6 +30,17 @@ alias soni='ssh bitteorca@oni'
 alias sstart='screen -dmS media mpdkeys && screen -dmS mpdas mpdas'
 
 alias ghostty='/Applications/Ghostty.app/Contents/MacOS/ghostty'
+alias mpd='mpd .config/mpd/mpd.conf'
+
+# for yazi
+function y() {
+	local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd
+	yazi "$@" --cwd-file="$tmp"
+	if cwd="$(command cat -- "$tmp")" && [ -n "$cwd" ] && [ "$cwd" != "$PWD" ]; then
+		builtin cd -- "$cwd"
+	fi
+	rm -f -- "$tmp"
+}
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 

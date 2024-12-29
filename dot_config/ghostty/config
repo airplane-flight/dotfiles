@@ -1,7 +1,7 @@
+# General Options
 font-family = FiraCode Nerd Font
-font-thicken = true
+font-style = semibold
 theme = catppuccin-mocha
-window-colorspace = srgb
 background-opacity = 0.9
 background-blur-radius = 15
 clipboard-read = allow
@@ -9,11 +9,13 @@ clipboard-write = allow
 window-height = 30
 window-width = 90
 
-# Custom Icon
+# Mac options
+macos-titlebar-proxy-icon = hidden
 macos-icon = custom-style
 macos-icon-frame = aluminum
 macos-icon-ghost-color = #cba6f7
 macos-icon-screen-color = #585b70
+window-colorspace = srgb 
 
 # Keybinds
 keybind = global:opt+1=toggle_quick_terminal

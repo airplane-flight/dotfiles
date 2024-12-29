@@ -19,15 +19,15 @@
 # ==== System Utils ==== #
           pkgs.btop
           pkgs.chezmoi
-          pkgs.mas
+          pkgs.mediainfo
           pkgs.mtr
           pkgs.ncdu
           pkgs.nmap
-          pkgs.ranger
           pkgs.tmux
           pkgs.ueberzugpp
           pkgs.watch
           pkgs.wget
+          pkgs.yazi
 # ==== Tools ==== #
           pkgs._1password-cli
           pkgs.android-tools

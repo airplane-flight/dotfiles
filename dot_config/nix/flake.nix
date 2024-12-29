@@ -17,28 +17,64 @@
       environment.systemPackages =
         [
 # ==== System Utils ==== #
-          pkgs.tmux
           pkgs.btop
-          pkgs.ncdu
-          pkgs.mtr
-          pkgs.watch
-          pkgs.nmap
-          pkgs.wget
+          pkgs.chezmoi
           pkgs.mas
+          pkgs.mtr
+          pkgs.ncdu
+          pkgs.nmap
           pkgs.ranger
+          pkgs.tmux
+          pkgs.ueberzugpp
+          pkgs.watch
+          pkgs.wget
 # ==== Tools ==== #
-          pkgs.obsidian
+          pkgs._1password-cli
+          pkgs.android-tools
+          pkgs.fastfetch
+          pkgs.gh
           pkgs.neovim
 # ==== Media ==== #
+          pkgs.ffmpeg
           pkgs.mpd
-          pkgs.ncmpcpp
           pkgs.mpdas
+          pkgs.ncmpcpp
           pkgs.speedtest-cli
           pkgs.yt-dlp
         ];
-      
+      homebrew = {
+        enable = true;
+        taps = [];
+        brews = [];
+        casks = [
+          "betterdiscord-installer"
+          "calibre"
+          "firefox"
+          "ghostty"
+          "google-chrome"
+          "hiddenbar"
+          "home-assistant"
+          "iina"
+          "karabiner-elements"
+          "nextcloud-vfs"
+          "obsidian"
+          "openemu"
+          "scroll-reverser"
+          "spotify"
+          "steam"
+          "tailscale"
+          "textmate"
+          "the-unarchiver"
+          "via"
+          "visual-studio-code"
+          "vlc"
+          "xiv-on-mac"
+          "xld"
+          "zen-browser"
+        ];
+        };
       fonts.packages = [
-        (pkgs.nerdfonts.override { fonts = [ "FiraCode" ]; })
+        pkgs.nerd-fonts.fira-code
       ];
 
       # Auto upgrade nix package and the daemon service.
@@ -61,6 +97,7 @@
 
       # The platform the configuration will be used on.
       nixpkgs.hostPlatform = "aarch64-darwin";
+
     };
   in
   {

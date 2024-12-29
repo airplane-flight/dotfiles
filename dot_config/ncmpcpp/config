@@ -12,14 +12,15 @@ song_status_format = "$6{%a - }{%t - }{%b}$9"
 alternative_header_first_line_format = "{$5%t$/b}"
 alternative_header_second_line_format = "$7{$b%a$/b}$9 - $5{%b}$9 $8{(%y)}"
 now_playing_prefix = "$b"
-now_playing_suffix = ""
+now_playing_suffix = "$/b"
 browser_playlist_prefix = "$7$bplaylist$/b$9 "
 selected_item_prefix = "$6"
 selected_item_suffix = "$9"
 song_window_title_format = "{%a - }{%t}|{%f}"
 
+display_bitrate = yes
 media_library_primary_tag = album_artist
-song_columns_list_format = "(8)[white]{l} (20)[magenta]{a} (28)[white]{t} (28)[magenta]{b}"
+song_columns_list_format = "(8)[white]{l} (20)[magenta]{a} (40)[white]{t} (28)[magenta]{b}"
 discard_colors_if_item_is_selected = "yes"
 progressbar_look = "-■"
 progressbar_color = "white"

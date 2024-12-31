@@ -38,6 +38,7 @@
           pkgs.ffmpeg
           pkgs.mpd
           pkgs.mpdas
+          pkgs.mpd-discord-rpc
           pkgs.ncmpcpp
           pkgs.speedtest-cli
           pkgs.yt-dlp
@@ -60,6 +61,7 @@
           "obsidian"
           "openemu"
           "scroll-reverser"
+          "signal"
           "spotify"
           "steam"
           "tailscale"
